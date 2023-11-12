@@ -7,6 +7,8 @@
   font-family: Gilroy-Regular;
   src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
 body{
     background-color: #030203 ;
     color: purple;
@@ -410,6 +412,9 @@ a {
   .ticketImg{
     max-width: 85vw;
   }
+  #ticket-image{
+    width: 100%;
+  }
   .card{
    
     width: 280px;
@@ -670,7 +675,7 @@ tspan{
   overflow: hidden;
 }
 
-.video-background {
+.ticket-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -710,6 +715,7 @@ tspan{
   z-index: 2;
   position: relative;
   background-color: #000000;
+  background-image: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 16%, rgba(255,255,255,0) 86%, rgba(0,0,0,1) 100%), url('../assets/contact-background.jpgs') ;
 }
 
 #schedule{
