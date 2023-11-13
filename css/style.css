@@ -226,22 +226,22 @@ form > input[type="submit"]:hover {
 }
 
 h1 {
-  font-family: "Spectral", serif;
-  color: #a67019;
-  font-size: 28px;
+  font-family: "Aladin", serif;
+  color: rgb(255, 198, 220);
+  font-size: 32px;
   font-weight: 400;
 }
 h2 {
-  font-family: "Spectral", serif;
-  color: #da9629;
-  font-size: 18px;
+  font-family: "Aladin", serif;
+  color: rgb(255, 198, 220);
+  font-size: 22px;
   font-weight: 400;
 }
 h5 {
   font-family: "Poppins", sans-serif;
 }
 h3 {
-  font-family: "Spectral", serif;
+  font-family: "Aladin", serif;
   color: #fff4e2;
 }
 
@@ -329,7 +329,7 @@ body {
   color: #62123e;
 }
 a {
-  color: #6b3a06;
+  color: rgb(98, 18, 62);
   font-size: 18px;
 }
 .customBtn:hover {
@@ -364,7 +364,7 @@ a {
       rgba(255, 255, 255, 0) 86%,
       rgba(75, 11, 45, 1) 100%
     ),
-    url("../assets/magenta_mystical.jpg");
+    url("../assets/magenta_mystical\ -\ Copy.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -431,7 +431,7 @@ a {
     font-size: 108px;
   }
   a {
-    font-family: "Spectral", serif;
+    font-family: "Aladin", serif;
     font-size: 14px;
   }
 }
@@ -536,17 +536,19 @@ p {
 }
 .titleImg {
   width: 30vw;
-  margin-bottom: 30px;
+  margin-bottom: -50px;
 }
 @media only screen and (max-width: 768px) {
   .titleImg {
     width: 50vw;
+    margin-bottom: 0px;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .titleImg {
     width: 70vw;
+    margin-bottom: 0px;
   }
 }
 .navbar-toggler {
@@ -558,7 +560,7 @@ p {
 }
 
 .menuBttn {
-  color: #f2d29d;
+  color: rgb(255, 242, 247);
   font-size: 40px;
 }
 
@@ -772,6 +774,21 @@ tspan {
   object-fit: cover;
 }
 
+.gradient-overlay-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    rgba(75, 11, 45, 0) 0%,
+    rgba(255, 255, 255, 0) 16%,
+    rgba(255, 255, 255, 0) 86%,
+    rgba(75, 11, 45, 1) 100%
+  );
+}
+
 .gradient-overlay {
   position: absolute;
   top: 0;
@@ -779,7 +796,7 @@ tspan {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    to top,
+    to bottom,
     rgba(75, 11, 45, 1) 0%,
     rgba(255, 255, 255, 0) 16%,
     rgba(255, 255, 255, 0) 86%,
@@ -849,5 +866,14 @@ a {
 }
 .customBtn a {
   font-size: 14px;
+}
+
+.hero-nav:hover {
+  font-size: 14px !important;
+}
+
+.hero-nav:hover::before {
+  visibility: hidden !important;
+  transform: scaleX(0) !important;
 }
 
