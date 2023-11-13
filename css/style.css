@@ -238,7 +238,7 @@ h2 {
   font-weight: 400;
 }
 h5 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
 }
 h3 {
   font-family: "Aladin", serif;
@@ -246,7 +246,7 @@ h3 {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
   color: #fff4e2;
 }
 
@@ -438,7 +438,7 @@ a {
 
 p {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Gilroy-Regular", sans-serif;
 }
 
 .navcas {
@@ -877,3 +877,40 @@ a {
   transform: scaleX(0) !important;
 }
 
+.modal-header h1{
+  color: #2f0820;
+  font-family: 'Gilroy-Semibold';
+}
+
+.modal-body .row .card:after {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: auto;
+  height: auto;
+}
+
+body .modal-dialog { /* Width */
+  max-width: 100%;
+  width: auto !important;
+  display: inline-block;
+}
+
+.modal {
+  z-index: -1;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-open .modal {
+  z-index: 2000;
+}
+
+.amount{
+  color: #000;
+}
+
+.platform{
+  font-family: 'Gilroy-Semibold';
+}
