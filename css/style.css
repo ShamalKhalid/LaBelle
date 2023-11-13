@@ -937,3 +937,8 @@ body .modal-dialog { /* Width */
 .platform{
   font-family: 'Gilroy-Semibold';
 }
+
+.modal-body .row .col-sm-6 .card .card-body a{
+  background-color: rgb(232, 56, 124) !important;
+  border-color: rgb(232, 56, 124) !important;
+}
