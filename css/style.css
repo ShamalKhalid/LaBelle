@@ -954,3 +954,7 @@ body .modal-dialog { /* Width */
   justify-content: center ;
   object-fit: cover;
 }
+
+.buy-ticket-text{
+  font-family: 'Gilroy-Semibold' !important;
+}
