@@ -57,7 +57,7 @@ body {
 }
 
 .scrollHead {
-  background: url("../assets/sc1.png") no-repeat center left transparent;
+  background: url("../assets/sc1.webp") no-repeat center left transparent;
   width: 70vw;
   height: 15vw;
   position: relative;
@@ -67,7 +67,7 @@ body {
 }
 
 .sched1 {
-  background: url("../assets/sc21.png") no-repeat center left transparent;
+  background: url("../assets/sc21.webp") no-repeat center left transparent;
   width: 65vw;
   height: 61vw;
   margin-top: -10vw;
@@ -78,7 +78,7 @@ body {
   animation: fadeIn 0.5s ease-in both;
 }
 .sched2 {
-  background: url("../assets/sc22.png") no-repeat center left transparent;
+  background: url("../assets/sc22.wesc21.webp") no-repeat center left transparent;
   width: 65vw;
   height: 61vw;
   margin-top: -10vw;
@@ -435,11 +435,8 @@ a {
     font-size: 14px;
   }
 
-  .collab-logo{
-    width: 5rem !important;
-    display: block;
-    margin: auto;
-    margin-top: 10px;
+  .wow-logo{
+    margin-top: 0% !important;
   }
 }
 
@@ -951,5 +948,9 @@ body .modal-dialog { /* Width */
 }
 
 .collab-logo{
-  width: 15rem;
+  width: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: center ;
+  object-fit: cover;
 }
