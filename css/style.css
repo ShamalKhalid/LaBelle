@@ -361,7 +361,7 @@ a {
       to top,
       rgba(75, 11, 45, 1) 0%,
       rgba(255, 255, 255, 0) 16%,
-      rgba(255, 255, 255, 0) 86%,
+      rgba(255, 255, 255, 0) 90%,
       rgba(75, 11, 45, 1) 100%
     ),
     url("../assets/magenta_mystical\ -\ Copy.jpg");
@@ -505,6 +505,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-bottom: 100px;
 }
 
 #sponsors {
