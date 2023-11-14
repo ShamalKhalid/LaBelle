@@ -377,12 +377,10 @@ a {
 @media only screen and (min-device-width: 310px) and (max-device-width: 480px) {
   .logoclass img {
     width: 120vw;
-    margin-left: 25px;
     transform: translateY(70px);
   }
   #landing-image {
     object-fit: cover;
-    object-position: -300px;
   }
   .mainBtn {
     visibility: visible;
