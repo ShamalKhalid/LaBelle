@@ -948,11 +948,9 @@ body .modal-dialog { /* Width */
 }
 
 .collab-logo{
-  width: 200px;
-  display: flex;
-  text-align: center;
-  justify-content: center ;
-  object-fit: cover;
+  height: 100px !important;
+  width: 200px !important;
+  object-fit: contain;
 }
 
 .buy-ticket-text{
