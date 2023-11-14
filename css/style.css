@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Aladin");
+
 @font-face {
   font-family: Gilroy-Semibold;
   src: url(../assets/fonts/Gilroy-SemiBold.ttf);
@@ -7,7 +9,6 @@
   font-family: Gilroy-Regular;
   src: url(../assets/fonts/Gilroy-Regular.ttf);
 }
-@import url("https://fonts.googleapis.com/css?family=Aladin");
 
 body {
   background-color: #4b0b2d;
@@ -258,30 +259,29 @@ p {
 }
 
 #landing {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+  position:relative;
 }
 body {
   padding: 0;
   margin: 0;
 }
 #landing-image {
-  height: 100vh;
-  object-fit: cover;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+  width:100%;
+  height:100vh;
+  position:absolute;
+  top:0;
+  left:0;
+  object-fit:cover;
   background-image: linear-gradient(
     to bottom,
     rgba(75, 11, 45, 1) 0%,
     rgba(255, 255, 255, 0.3) 40%,
     rgba(75, 11, 45, 1) 100%
   );
+  z-index: -1;
 }
 .landing-gradient {
   position: absolute;
@@ -433,6 +433,13 @@ a {
   a {
     font-family: "Aladin", serif;
     font-size: 14px;
+  }
+
+  .collab-logo{
+    width: 5rem !important;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
   }
 }
 
@@ -941,4 +948,8 @@ body .modal-dialog { /* Width */
 .modal-body .row .col-sm-6 .card .card-body a{
   background-color: rgb(232, 56, 124) !important;
   border-color: rgb(232, 56, 124) !important;
+}
+
+.collab-logo{
+  width: 15rem;
 }
