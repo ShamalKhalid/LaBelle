@@ -485,11 +485,11 @@ p {
   font-family: "Gilroy-Regular", sans-serif;
 }
 
-#about, #highlights, #tickets {
+#about, #highlights, #ticket {
   margin-top: 100px !important;
 }
 
-#highlights, #tickets, #speakers {
+#highlights, #ticket, #speakers {
   margin-bottom: 100px !important;
 }
 
