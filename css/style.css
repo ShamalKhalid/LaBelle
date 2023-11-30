@@ -927,11 +927,27 @@ body .modal-dialog { /* Width */
 }
 
 .collab-logo{
-  height: 100px !important;
-  width: 200px !important;
+  height: 200px !important;
+  width: 300px !important;
   object-fit: contain;
 }
 
 .buy-ticket-text{
   font-family: 'Gilroy-Semibold' !important;
 }
+
+@media (min-width: 576px){
+.mt-sm-5 {
+    margin-top: 8rem!important;
+    margin-bottom: 2rem!important;
+}
+}
+
+@media (max-width: 576px){
+  .collab-logo {
+      margin-top: 2rem!important;
+      margin-bottom: 2rem!important;
+      height: 150px;
+      width: 250px;
+  }
+  }
