@@ -96,10 +96,10 @@
         <img src="./assets/our sponsors.png" class="titleImg" data-aos="zoom-in" alt="">
         <br>
         <div class="row d-flex align-items-center justify-content-around mt-sm-5">
-          <div class="col-lg-3 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
+          <div class="col-lg-6 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
             <img src="./assets/pnb copy.png" data-aos="zoom-in" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-3 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
+          <div class="col-lg-6 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
             <img src="./assets/logo potrait.png" data-aos="zoom-in" class="img-fluid" alt="">
           </div>
         </div>
@@ -118,10 +118,10 @@
             <div class="col-lg-3 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
               <img src="./assets/logo wow.png" data-aos="zoom-in" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-3 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
+            <div class="col-lg-4 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
               <img src="./assets/logo sias.png" data-aos="zoom-in" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-3 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
+            <div class="col-lg-4 collab-logo d-flex align-items-center justify-content-center object-fit-cover mt-3">
               <img src="./assets/logo ssmptc.png" data-aos="zoom-in" class="img-fluid" alt="">
             </div>
           </div>
@@ -312,12 +312,14 @@
         <div class="container-fluid video-container mt-5">
           <img src="./assets/magenta-landscape-with-moon.jpg" alt="" class="ticket-background">
           <div class="gradient-overlay"></div>
+            <!-- <h1 class="text-center fas-1 mt-5">Grab your Tickets</h1> -->
             <img src="./assets/tickets.png" class="titleImg mx-auto d-block mt-5"  data-aos="zoom-in" alt="">
             <div class="row mt-md-5 justify-content-center">
                 <div class="col-md-5 text-center">
                     <img src="./assets/ticket early.webp" class="img-fluid ticketImg" alt="" data-aos="zoom-out-up">
+                      <button class="customBtn mb-2" data-aos="zoom-in" data-bs-toggle="modal" data-bs-target="#PaymentModal">
                       <button class="customBtn mb-2" data-aos="zoom-in">
-                        <a class="text-decoration-none buy-ticket-text" href="https://forms.gle/bX2yfqnivAoV9Yt1A">
+                        <a class="text-decoration-none buy-ticket-text">
                           Grab Your Ticket
                         </a>
                       </button>
@@ -330,7 +332,40 @@
                 </div>
             </div>
         </div>
-        
+        <div class="modal fade" id="PaymentModal" tabindex="-1" aria-labelledby="PaymentModal" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="PaymentModalLabel">Choose your Booking Method</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/yepdesk.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title platform">Yepdesk</h5>
+                        <p class="card-text amount">₹799 + 4% Platform Charge</p>
+                        <a href="https://www.yepdesk.com/buy-tickets/6549eaa046e0fb00017ed81e/private/h634o7hcqa" class="btn btn-primary">Book Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./assets/google Forms.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title platform">Google Forms</h5>
+                        <p class="card-text amount">₹799</p>
+                        <a href="https://forms.gle/bX2yfqnivAoV9Yt1A" class="btn btn-primary">Book Now</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </section>
     <!-- <section id="sponsors">
       <div class="container text-center">
